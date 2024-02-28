@@ -1,0 +1,754 @@
+{
+    "connections": [
+        {
+            "in_id": "{8bbf381f-9411-4f1a-9be2-8d9c52af422a}",
+            "in_index": 0,
+            "out_id": "{237af5e1-fe28-4b7a-bb6f-4575507ee205}",
+            "out_index": 1
+        },
+        {
+            "in_id": "{237af5e1-fe28-4b7a-bb6f-4575507ee205}",
+            "in_index": 0,
+            "out_id": "{104de5f1-fc91-4dad-addf-7f4ecc3b324d}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{6752311d-92b0-4f67-976d-a4dafb63f3da}",
+            "in_index": 0,
+            "out_id": "{599f73f4-4446-40d4-a6ca-7915d7e26ef0}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{b6f037aa-d5fa-4d07-ac7c-da5756f93c92}",
+            "in_index": 0,
+            "out_id": "{599f73f4-4446-40d4-a6ca-7915d7e26ef0}",
+            "out_index": 1
+        },
+        {
+            "in_id": "{d8fb5aad-5baa-4935-bf27-c0e77f1fca31}",
+            "in_index": 0,
+            "out_id": "{237af5e1-fe28-4b7a-bb6f-4575507ee205}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{c401d6bc-1b65-441d-926a-f9efcca0a00c}",
+            "in_index": 0,
+            "out_id": "{a0c515c3-a215-4b52-9b2c-5ba1411df125}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{599f73f4-4446-40d4-a6ca-7915d7e26ef0}",
+            "in_index": 0,
+            "out_id": "{8bbf381f-9411-4f1a-9be2-8d9c52af422a}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{c38add93-512d-4862-bfde-4b4deb34d13d}",
+            "in_index": 1,
+            "out_id": "{4eb7182d-6db0-4d0a-a69b-e27460566fde}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{104de5f1-fc91-4dad-addf-7f4ecc3b324d}",
+            "in_index": 0,
+            "out_id": "{a0c515c3-a215-4b52-9b2c-5ba1411df125}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{a25cbd43-d64f-4e48-9643-cdfb6c9d3bed}",
+            "in_index": 0,
+            "out_id": "{104de5f1-fc91-4dad-addf-7f4ecc3b324d}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{56ee60f6-4e04-4bf9-bf5e-13ca63bc0956}",
+            "in_index": 0,
+            "out_id": "{b6f037aa-d5fa-4d07-ac7c-da5756f93c92}",
+            "out_index": 1
+        },
+        {
+            "in_id": "{47f41251-3844-43c1-95d3-a813e8871164}",
+            "in_index": 0,
+            "out_id": "{8bbf381f-9411-4f1a-9be2-8d9c52af422a}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{0e395fc7-a6b1-409a-b1f4-f0bdba347118}",
+            "in_index": 0,
+            "out_id": "{b6f037aa-d5fa-4d07-ac7c-da5756f93c92}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{c38add93-512d-4862-bfde-4b4deb34d13d}",
+            "in_index": 0,
+            "out_id": "{d8fb5aad-5baa-4935-bf27-c0e77f1fca31}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{dc094459-8cbe-4317-ab14-8271d9b3164f}",
+            "in_index": 0,
+            "out_id": "{c38add93-512d-4862-bfde-4b4deb34d13d}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{f9837bd5-373e-45bb-b307-650599a2697c}",
+            "in_index": 0,
+            "out_id": "{c38add93-512d-4862-bfde-4b4deb34d13d}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{4eb7182d-6db0-4d0a-a69b-e27460566fde}",
+            "in_index": 0,
+            "out_id": "{6752311d-92b0-4f67-976d-a4dafb63f3da}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{4eb7182d-6db0-4d0a-a69b-e27460566fde}",
+            "in_index": 1,
+            "out_id": "{b6f037aa-d5fa-4d07-ac7c-da5756f93c92}",
+            "out_index": 1
+        }
+    ],
+    "nodes": [
+        {
+            "id": "{104de5f1-fc91-4dad-addf-7f4ecc3b324d}",
+            "model": {
+                "data": {
+                    "curr_tap": 0,
+                    "draw_roi": true,
+                    "enable_tracking": false,
+                    "font_scale": 1,
+                    "font_thickness": 1,
+                    "frame_buffer": 5,
+                    "map_det_cfgs": [
+                        {
+                            "backend_name": "CUDA",
+                            "config_name": "Ai",
+                            "config_path": "C:/Users/uSeR/Documents/GitHub/PJ CiRA CORE คลE3/v3-20240224T185650Z-001/v3"
+                        },
+                        {
+                            "backend_name": "CUDA",
+                            "config_name": "WB",
+                            "config_path": "C:/Users/uSeR/Documents/GitHub/PJ CiRA CORE คลE3/WB"
+                        }
+                    ],
+                    "max_dist": 150,
+                    "nms": 0.4,
+                    "rect_thickness": 2,
+                    "result_drawing": true,
+                    "roi_h": 50000,
+                    "roi_w": 50000,
+                    "roi_x": 0,
+                    "roi_y": 0,
+                    "show_confidence": true,
+                    "text_drawing": true,
+                    "this_config_name": "WB",
+                    "thresh": 50,
+                    "txt_offset": 10
+                },
+                "name": "DeepDetect ",
+                "node_enable": true,
+                "obj_colors": {
+                    "array": [
+                    ]
+                }
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -269.65091182296294,
+                "y": -40.352230038931765
+            }
+        },
+        {
+            "id": "{b6f037aa-d5fa-4d07-ac7c-da5756f93c92}",
+            "model": {
+                "data": {
+                    "detectNames": {
+                        "1": {
+                            "High_Sat": 255,
+                            "High_Val": 255,
+                            "Hue_Val": 86,
+                            "Low_Sat": 0,
+                            "Low_Val": 0,
+                            "b": 226,
+                            "g": 255,
+                            "h": 173,
+                            "r": 0,
+                            "s": 255,
+                            "v": 255
+                        },
+                        "2": {
+                            "High_Sat": 239,
+                            "High_Val": 255,
+                            "Hue_Val": 67,
+                            "Low_Sat": 0,
+                            "Low_Val": 0,
+                            "b": 76,
+                            "g": 255,
+                            "h": 135,
+                            "r": 16,
+                            "s": 239,
+                            "v": 255
+                        },
+                        "3": {
+                            "High_Sat": 200,
+                            "High_Val": 200,
+                            "Hue_Val": 50,
+                            "Low_Sat": 0,
+                            "Low_Val": 0,
+                            "b": 43,
+                            "g": 200,
+                            "h": 100,
+                            "r": 95,
+                            "s": 200,
+                            "v": 200
+                        }
+                    },
+                    "draw_roi": true,
+                    "font_scale": 1.2,
+                    "font_thickness": 2,
+                    "indexDetectName": [
+                        "1",
+                        "2",
+                        "3"
+                    ],
+                    "minimum_area": 10,
+                    "rect_thickness": 2,
+                    "result_drawing": true,
+                    "roi_h": 50000,
+                    "roi_w": 50000,
+                    "roi_x": 0,
+                    "roi_y": 0,
+                    "text_drawing": false,
+                    "txt_offset": 10
+                },
+                "name": "ColorDetect",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": 306.26860187145684,
+                "y": -29.829425858889582
+            }
+        },
+        {
+            "id": "{56ee60f6-4e04-4bf9-bf5e-13ca63bc0956}",
+            "model": {
+                "height": 239,
+                "name": "Debug",
+                "output_h": 0,
+                "output_v": 0,
+                "page_index": 2,
+                "payload_h": 0,
+                "payload_v": 0,
+                "width": 474
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": 272.42031090772446,
+                "y": 341.5733865173144
+            }
+        },
+        {
+            "id": "{c401d6bc-1b65-441d-926a-f9efcca0a00c}",
+            "model": {
+                "height": 140,
+                "name": "Debug",
+                "output_h": 0,
+                "output_v": 0,
+                "page_index": 2,
+                "payload_h": 0,
+                "payload_v": 0,
+                "width": 225
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -778.7269189263025,
+                "y": -11.624815927873897
+            }
+        },
+        {
+            "id": "{f9837bd5-373e-45bb-b307-650599a2697c}",
+            "model": {
+                "height": 292,
+                "name": "Debug",
+                "output_h": 0,
+                "output_v": 0,
+                "page_index": 2,
+                "payload_h": 0,
+                "payload_v": 2416,
+                "width": 405
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": 787.4105231200048,
+                "y": -131.4020368827266
+            }
+        },
+        {
+            "id": "{a0c515c3-a215-4b52-9b2c-5ba1411df125}",
+            "model": {
+                "data": {
+                    "resp_timeout": 10000,
+                    "service_name": "live"
+                },
+                "name": "RosServer",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -466.80766341096916,
+                "y": -29.41998497370397
+            }
+        },
+        {
+            "id": "{7b4a52d6-90bc-4079-94f2-aa06b94f430d}",
+            "model": {
+                "data": {
+                    "auto_gen": {
+                        "blur_max": 9,
+                        "blur_step": 9,
+                        "contrast_max": 1.2,
+                        "contrast_min": 0.2,
+                        "contrast_step": 1,
+                        "fixed_size": false,
+                        "grb_blur": false,
+                        "grb_contrast": true,
+                        "grb_noise": false,
+                        "grb_rotation": true,
+                        "noise_max": 10,
+                        "noise_step": 10,
+                        "rot_max": 180,
+                        "rot_min": -180,
+                        "rot_step": 90,
+                        "thickness": 2
+                    },
+                    "auto_rect": false,
+                    "auto_rect_class": "",
+                    "auto_rect_h": 10,
+                    "auto_rect_w": 10,
+                    "batch_size": 64,
+                    "cmb_model": "V4-tiny",
+                    "dlg_lb_setting": {
+                        "crosshair_thickness": 1,
+                        "font_offset": 5,
+                        "font_scale": 0.6,
+                        "font_thickness": 1,
+                        "line_thickness": 2,
+                        "rect_thickness": 2
+                    },
+                    "export_crop": {
+                        "exp_constant": false,
+                        "exp_scale": true,
+                        "exp_scale_h": 1,
+                        "exp_scale_w": 1,
+                        "expand_height": 0,
+                        "expand_width": 0,
+                        "jpg": false,
+                        "png": true,
+                        "same_folder": true,
+                        "square_padding": true,
+                        "square_size": 608,
+                        "tmp_dir": "C:/Users/uSeR"
+                    },
+                    "grb_auto_gen": true,
+                    "gt_path": "C:/Users/uSeR/Documents/GitHub/PJ CiRA CORE คลE3/White Blood.gt",
+                    "is_override": true,
+                    "net_size": "416",
+                    "path_gen": "C:/Users/uSeR/Documents/GitHub/PJ CiRA CORE คลE3/imgV3/data4",
+                    "prj_path": "...",
+                    "sub_division": 8,
+                    "use_other_path_gen": false,
+                    "use_prebuilt_wg": false,
+                    "wg": "Default   AAAAAAAAAAAAAAAAAAAAAAAAaAAAAA"
+                },
+                "name": "DeepTrain",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -520.9685130797075,
+                "y": -142.55173826924386
+            }
+        },
+        {
+            "id": "{8bbf381f-9411-4f1a-9be2-8d9c52af422a}",
+            "model": {
+                "data": {
+                    "curr_tap": 0,
+                    "draw_roi": true,
+                    "enable_tracking": false,
+                    "font_scale": 1.2,
+                    "font_thickness": 2,
+                    "frame_buffer": 5,
+                    "map_det_cfgs": [
+                        {
+                            "backend_name": "CUDA",
+                            "config_name": "Ai",
+                            "config_path": "C:/Users/uSeR/Documents/GitHub/PJ CiRA CORE คลE3/v3-20240224T185650Z-001/v3"
+                        },
+                        {
+                            "backend_name": "CUDA",
+                            "config_name": "WB",
+                            "config_path": "C:/Users/uSeR/Documents/GitHub/PJ CiRA CORE คลE3/WB"
+                        }
+                    ],
+                    "max_dist": 150,
+                    "nms": 0.4,
+                    "rect_thickness": 2,
+                    "result_drawing": true,
+                    "roi_h": 50000,
+                    "roi_w": 50000,
+                    "roi_x": 0,
+                    "roi_y": 0,
+                    "show_confidence": true,
+                    "text_drawing": true,
+                    "this_config_name": "Ai",
+                    "thresh": 50,
+                    "txt_offset": 10
+                },
+                "name": "DeepDetect ",
+                "node_enable": true,
+                "obj_colors": {
+                    "array": [
+                    ]
+                }
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": 15.221152926712662,
+                "y": -7.397158664025639
+            }
+        },
+        {
+            "id": "{4eb7182d-6db0-4d0a-a69b-e27460566fde}",
+            "model": {
+                "name": "PipeConnection"
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": 507.84277945495535,
+                "y": -84.01852421282692
+            }
+        },
+        {
+            "id": "{6752311d-92b0-4f67-976d-a4dafb63f3da}",
+            "model": {
+                "data": {
+                    "comment": "",
+                    "py_ver": "1. Python2",
+                    "script": "obj_count_str = payload['DeepDetect']['obj_count_str']\nlines = []\nlines.append(\"ตรวจเจอ :\")\nfor item in obj_count_str.split(','):\n    parts = item.split(':')\n    if len(parts) == 2:\n        key, value = parts\n        lines.append(\"{} : {}\".format(key.strip(), value.strip()))\npayload['line_msg'] = '\\n'.join(lines)\n\n",
+                    "tmp_path": "C:/Users/uSeR"
+                },
+                "height": 47,
+                "name": "PythonScript",
+                "node_enable": true,
+                "python_code": "obj_count_str = payload['DeepDetect']['obj_count_str']\nlines = []\nlines.append(\"ตรวจเจอ :\")\nfor item in obj_count_str.split(','):\n    parts = item.split(':')\n    if len(parts) == 2:\n        key, value = parts\n        lines.append(\"{} : {}\".format(key.strip(), value.strip()))\npayload['line_msg'] = '\\n'.join(lines)\n\n",
+                "width": 75
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": 300.32404009288973,
+                "y": -127.88550652277858
+            }
+        },
+        {
+            "id": "{47f41251-3844-43c1-95d3-a813e8871164}",
+            "model": {
+                "height": 249,
+                "name": "Debug",
+                "output_h": 0,
+                "output_v": 0,
+                "page_index": 2,
+                "payload_h": 0,
+                "payload_v": 32,
+                "width": 346
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -163.25612021036784,
+                "y": 163.41842449286247
+            }
+        },
+        {
+            "id": "{dc094459-8cbe-4317-ab14-8271d9b3164f}",
+            "model": {
+                "data": {
+                    "jpg": true,
+                    "png": false,
+                    "send_img": true
+                },
+                "name": "RosResponse",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": 838.1093981968444,
+                "y": -235.24341773102938
+            }
+        },
+        {
+            "id": "{a25cbd43-d64f-4e48-9643-cdfb6c9d3bed}",
+            "model": {
+                "height": 268,
+                "name": "Debug",
+                "output_h": 0,
+                "output_v": 0,
+                "page_index": 2,
+                "payload_h": 0,
+                "payload_v": 0,
+                "width": 364
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -610.6751990984219,
+                "y": 178.34669421487607
+            }
+        },
+        {
+            "id": "{d8fb5aad-5baa-4935-bf27-c0e77f1fca31}",
+            "model": {
+                "data": {
+                    "comment": "",
+                    "py_ver": "1. Python2",
+                    "script": "obj_count_str = payload['DeepDetect']['obj_count_str']\nlines = []\nlines.append(\"ตรวจเจอ :\")\nfor item in obj_count_str.split(','):\n    parts = item.split(':')\n    if len(parts) == 2:\n        key, value = parts\n        lines.append(\"{} : {}\".format(key.strip(), value.strip()))\npayload['line_msg'] = '\\n'.join(lines)\n",
+                    "tmp_path": "C:/Users/uSeR"
+                },
+                "height": 47,
+                "name": "PythonScript",
+                "node_enable": true,
+                "python_code": "obj_count_str = payload['DeepDetect']['obj_count_str']\nlines = []\nlines.append(\"ตรวจเจอ :\")\nfor item in obj_count_str.split(','):\n    parts = item.split(':')\n    if len(parts) == 2:\n        key, value = parts\n        lines.append(\"{} : {}\".format(key.strip(), value.strip()))\npayload['line_msg'] = '\\n'.join(lines)\n",
+                "width": 75
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": 34,
+                "y": -153
+            }
+        },
+        {
+            "id": "{237af5e1-fe28-4b7a-bb6f-4575507ee205}",
+            "model": {
+                "data": {
+                    "console": "",
+                    "js_code": "ifelse = ( payload.DeepDetect.count) > 0 ? true : false",
+                    "widget_state": {
+                        "auto_indent": true,
+                        "auto_parent": true,
+                        "size": 11,
+                        "style": "Dracula",
+                        "widget_st_w": 0,
+                        "word_wrap": false
+                    }
+                },
+                "name": "IfElse",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -86.89999999999999,
+                "y": -75.9
+            }
+        },
+        {
+            "id": "{599f73f4-4446-40d4-a6ca-7915d7e26ef0}",
+            "model": {
+                "data": {
+                    "console": "",
+                    "js_code": "ifelse = ( payload.DeepDetect.count) > 0 ? true : false",
+                    "widget_state": {
+                        "auto_indent": true,
+                        "auto_parent": true,
+                        "size": 11,
+                        "style": "Dracula",
+                        "widget_st_w": 0,
+                        "word_wrap": false
+                    }
+                },
+                "name": "IfElse",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": 169.6,
+                "y": -36.67199999999998
+            }
+        },
+        {
+            "id": "{61d3b829-d9bc-45fb-b6bd-220e67ed77cd}",
+            "model": {
+                "height": 140,
+                "name": "Debug",
+                "output_h": 0,
+                "output_v": 0,
+                "page_index": 1,
+                "payload_h": 0,
+                "payload_v": 0,
+                "width": 225
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -318.0192609794411,
+                "y": 950.5737313025068
+            }
+        },
+        {
+            "id": "{a1d0501c-e8f3-4a8e-a0c8-728959ce5118}",
+            "model": {
+                "data": {
+                    "line_msg_secret": "38dc315013f5d6c516887278e9b66560",
+                    "line_msg_token": "BVQQy4S4NZLONh3jvck2H155x/FSjg77CFH81HcuwOApaBd3UjWwyOnCFG0GGUZYOcgNFuBlWy1J3G1465BtBA9xF5xQ5IaClgv3PV3BjsD3G7kEF5LUorI3Y8ZwAOJiV9mtxAOfgg2M7eLbnApe9wdB04t89/1O/w1cDnyilFU=",
+                    "ngrok_auth_token": "2cxSgjG3B8zJc2ISLccrKNrl9WE_7xCqdz6aNTSSqGrAaD7M6",
+                    "ngrok_local_port": 3000,
+                    "ngrok_region": "au",
+                    "python_path": "C:/Users/uSeR/AppData/Local/Microsoft/WindowsApps/pythonw3.10.exe",
+                    "ros_service_name": "live",
+                    "working_dir": "C:/Users/uSeR/Documents/GitHub/PJ CiRA CORE คลE3/img/images"
+                },
+                "height": 52,
+                "name": "LineBot",
+                "node_enable": true,
+                "width": 75
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -338.0916604057099,
+                "y": -194.5905334335086
+            }
+        },
+        {
+            "id": "{0e395fc7-a6b1-409a-b1f4-f0bdba347118}",
+            "model": {
+                "height": 247,
+                "name": "Debug",
+                "output_h": 0,
+                "output_v": 0,
+                "page_index": 2,
+                "payload_h": 0,
+                "payload_v": 0,
+                "width": 410
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": 320.57023531179493,
+                "y": 72.75308880540955
+            }
+        },
+        {
+            "id": "{c38add93-512d-4862-bfde-4b4deb34d13d}",
+            "model": {
+                "name": "PipeConnection"
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": 594.1100000000001,
+                "y": -113.73999999999998
+            }
+        }
+    ],
+    "scene_data": {
+        "flow_view_pos_x": -170.97138857264207,
+        "flow_view_pos_y": -170.87760675629968,
+        "flow_view_zoom_factor": 1.3310000000000004
+    }
+}
